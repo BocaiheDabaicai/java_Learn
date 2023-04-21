@@ -38,4 +38,5 @@
     <li>强制类型转换,在右侧值的左侧添加<code>('数据类型')</code>,可以把数据的类型进行转换</li>
     <li>转化规则,byte , short => int => long => float => double,byte与short数据做运算时,结果为int类型</li>
     <li>数字默认为int型,浮点数默认为double型</li>
+    <li>整数相加默认为int型,char字符相加为Ascii码相加值的字符</li>
 </ol>
