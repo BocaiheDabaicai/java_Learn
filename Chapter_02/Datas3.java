@@ -8,5 +8,12 @@ public class Datas3 {
 
         byte b = 3;
         int c = b+2;
+
+        // 1 2
+        int i = 1;
+        // i:2 3 4
+        // 1 + 3 * 3
+        int j = i++ + ++i * i++;
+        System.out.println(" "+j);
     }
 }
